@@ -1,0 +1,149 @@
+/*!
+ * Header styles
+ */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	position: relative;
+}
+
+.brand {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	padding: 0.5rem 0;
+}
+
+.toggle-menu {
+	color: var(--body-color);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.toggle-menu:hover {
+	color: var(--body-color);
+	background-color: var(--primary-color-light);
+}
+
+.navbar {
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 10;
+	opacity: 1;
+	visibility: hidden;
+	transition: all;
+	background: linear-gradient(
+		177deg,
+		rgba(11, 35, 69, 1) 0%,
+		rgba(11, 35, 69, 0.9) 100%
+	);
+}
+
+.expanded {
+	opacity: 1;
+	visibility: visible;
+}
+
+.menu {
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.menu-item {
+	position: relative;
+}
+
+.menu-link {
+	color: var(--body-color);
+	cursor: pointer;
+	padding: 1rem;
+	display: inline-block;
+	width: 100%;
+	font-size: var(--body-font-size);
+	&:hover {
+		color: var(--secondary) !important;
+		background-color: hsl(210deg 72% 22%);
+	}
+}
+
+.socials {
+	display: flex;
+	align-items: center;
+	color: var(--body-color);
+	padding: 0.5rem 1rem;
+}
+
+.socials-icon {
+	color: var(--body-color);
+	&:hover {
+		color: var(--body-color);
+	}
+}
+
+.socials-icon:first-child {
+	margin-right: 1rem;
+}
+
+/*!
+ * Movil
+ */
+@media screen and (min-width: 576px) {
+}
+
+/*!
+* Tablet
+*/
+@media screen and (min-width: 768px) {
+}
+
+/*!
+* Desktop
+*/
+@media screen and (min-width: 992px) {
+	.header {
+		flex-direction: row;
+		height: 70px;
+	}
+
+	.navbar {
+		width: auto;
+		flex: 1;
+		position: initial;
+		opacity: 1;
+		visibility: visible;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		background: transparent;
+	}
+
+	.menu {
+		display: flex;
+		align-items: center;
+		margin: 0;
+	}
+
+	.menu-link:hover {
+		background-color: transparent;
+	}
+
+	.toggle-menu {
+		display: none;
+	}
+
+	.lang {
+		margin: 0;
+	}
+}

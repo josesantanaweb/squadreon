@@ -1,0 +1,33 @@
+{
+  "menu": {
+    "about": "Sobre Nosotros",
+    "teams": "Equipos",
+    "works": "Trabajos"
+  },
+  "about": {
+    "title": "Ingeniería como servicio",
+    "subtitle": "Ágil como cultura.",
+    "text": "Squadreon es un estudio de desarrollo de software establecido en 2020 por iniciativa de desarrolladores e ingenieros independientes motivados a formar equipo, manteniendo nuestro espíritu freelance con cada proyecto como una nueva búsqueda en la que lanzarse.",
+    "more": "Ver Mas",
+    "agile-squads": "Escuadrones ágiles",
+    "agile-squads-text": "Autonomous, self-organized teams that covers all the aspect of the development process of the project.",
+    "tailored": "Tailored",
+    "tailored-text": "Equipos autónomos y autoorganizados que cubren todos los aspectos del proceso de desarrollo del proyecto.",
+    "autonomous": "Autónomos",
+    "autonomous-text": "Los escuadrones son autónomos y tienen experiencia en metodologías ágiles y pueden unirse a las tribus y gremios existentes de su organización.",
+    "flexible": "Flexible",
+    "flexible-text": "El flujo de trabajo se puede reducir o aumentar según las necesidades del proyecto. Sin coste fijo, solo se facturan las horas trabajadas.",
+    "mature": "Maduro",
+    "mature-text": "Equipos cohesionados de consultores con experiencia comprobada trabajando juntos."
+  },
+  "works": {
+    "work": "Withit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis libero vitae metus lobortis aliquet. Nam nec velit est. Sed eget erat sed sem hendrerit placerat. Etiam tincidunt quis ipsum et faucibus. Nam et vestibulum mauris. Ut interdum nunc nunc, a ornare massa pretium vitae.",
+    "technologies": "Tecnologias"
+  },
+  "teams": {
+    "team": "Equipo",
+    "members": "Miembro",
+    "history": "Historia"
+  }
+}

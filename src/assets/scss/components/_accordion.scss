@@ -1,0 +1,59 @@
+/*!
+ * Accordion styles
+ */
+
+.accordion {
+	width: 100%;
+	background: rgb(2, 0, 36);
+	border-radius: 10px;
+	padding: 2rem;
+	background: linear-gradient(
+		177deg,
+		rgba(11, 35, 69, 0.7) 0%,
+		rgba(11, 35, 69, 0.1) 100%
+	);
+}
+
+.accordio-item {
+	background: linear-gradient(
+		90deg,
+		rgba(35, 176, 255, 0.01) 0%,
+		rgba(35, 176, 255, 0.3) 100%
+	);
+	border-right: 2px solid var(--primary-color);
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.accordio-item:last-child {
+	margin-bottom: 0;
+}
+
+.accordio-top {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordio-top h5 {
+	font-size: 1rem;
+	margin: 0;
+}
+
+.accordio-body {
+	max-height: 0;
+	padding: 0 1em;
+	overflow: hidden;
+	transition: all 0.2s;
+}
+
+.accordio-body p {
+	margin-bottom: 0;
+	font-size: 0.875rem;
+}
+
+.is-open .accordio-body {
+	max-height: 100vh;
+	padding: 1em;
+}

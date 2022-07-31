@@ -1,0 +1,48 @@
+/*!
+* Lang selector styles
+*/
+
+.lang {
+	color: var(--body-color);
+	cursor: pointer;
+	padding: 0 1rem;
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.lang-selected {
+	display: flex;
+	align-items: center;
+}
+
+.lang-label {
+	margin: 0;
+	margin-right: 0.5rem;
+	text-transform: uppercase;
+}
+
+.lang-options {
+	background-color: hsl(210deg 72% 22%);
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+}
+
+.lang-options li {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+.lang-options li:hover {
+	background-color: hsl(210deg 72% 30%);
+}
+
+/*!
+* Desktop
+*/
+@media screen and (min-width: 992px) {
+	.lang {
+		margin: 0;
+	}
+}

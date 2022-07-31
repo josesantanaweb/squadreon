@@ -1,0 +1,33 @@
+{
+  "menu": {
+    "about": "About",
+    "teams": "Teams",
+    "works": "Works"
+  },
+  "about": {
+    "title": "Engineering as a service",
+    "subtitle": "Agile as a culture.",
+    "text": "Squadreon is a software development studio established in 2020 by the initiative of independent developers and engineers motivated to team up, keeping our freelance spirit with each project as a new quest to jump into.",
+    "more": "View More",
+    "agile-squads": "Agile Squads",
+    "agile-squads-text": "Autonomous, self-organized teams that covers all the aspect of the development process of the project.",
+    "tailored": "Tailored",
+    "tailored-text": "Squads are built specifically to suit your project needs. You can cherry-pick each team member.",
+    "autonomous": "Autonomous",
+    "autonomous-text": "Squads are autonomous and experienced in agile methodologies and can join your organization’s existing tribes and guilds.",
+    "flexible": "Flexible",
+    "flexible-text": "Workflow can be reduced or increased depending on the project needs. No fixed cost, only worked hours are invoiced.",
+    "mature": "Mature",
+    "mature-text": "Cohesive teams of consultants with proven experience working together."
+  },
+  "works": {
+    "work": "Withit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis libero vitae metus lobortis aliquet. Nam nec velit est. Sed eget erat sed sem hendrerit placerat. Etiam tincidunt quis ipsum et faucibus. Nam et vestibulum mauris. Ut interdum nunc nunc, a ornare massa pretium vitae.",
+    "technologies": "Technologies"
+  },
+  "teams": {
+    "team": "Team",
+    "members": "Members",
+    "history": "History"
+  }
+}

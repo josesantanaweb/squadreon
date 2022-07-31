@@ -1,0 +1,98 @@
+/*!
+ * About styles
+ */
+
+.about {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 2rem;
+}
+
+.hero {
+	position: relative;
+	margin-bottom: 4rem;
+}
+
+.hero-title {
+	color: var(--primary-color);
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+.hero-subtitle {
+	color: var(--body-color);
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+.hero-text {
+	color: var(--body-color);
+	font-size: 0.875rem;
+	margin-bottom: 2rem;
+}
+
+.agile {
+	color: var(--body-color);
+}
+
+.agile-title {
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+.agile-text {
+	margin-bottom: 2rem;
+	font-size: 0.875rem;
+}
+
+/*!
+ * Movil
+ */
+@media screen and (min-width: 576px) {
+}
+
+/*!
+* Tablet
+*/
+@media screen and (min-width: 768px) {
+}
+
+/*!
+* Desktop
+*/
+@media screen and (min-width: 992px) {
+}
+
+/*!
+* Extra large Desktop
+*/
+@media screen and (min-width: 1400px) {
+	.about {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20rem;
+		height: calc(100vh - 80px);
+		padding: 0;
+	}
+
+	.hero {
+		margin: 0;
+	}
+
+	.hero-title {
+		font-size: 2.5rem;
+	}
+
+	.hero-subtitle {
+		font-size: 1.75rem;
+	}
+
+	.agile-title {
+		font-size: 1.75rem;
+	}
+
+	.agile-text {
+		margin-bottom: 4rem;
+	}
+}

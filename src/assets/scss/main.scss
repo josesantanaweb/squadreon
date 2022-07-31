@@ -1,0 +1,79 @@
+/*!
+ * Squadreon v1.0
+ * Copyright 2011-2022 Jose Santana Author
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import 'variables';
+@import './vendor/reboot';
+@import './vendor/boostrap-grid';
+@import './vendor/boostrap-utilities';
+@import './components/header';
+@import './components/button';
+@import './components/accordion';
+@import './components/scroll-control';
+@import './components/lang-selector';
+@import './pages/about';
+@import './pages/works';
+@import './pages/teams';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.toggle {
+	cursor: pointer;
+}
+
+.main {
+	position: relative;
+	height: 100vh;
+	background: url('../images/bg.png') var(--body-bg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.wrapper {
+	width: var(--container-width-sm);
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+/*!
+* Movil
+*/
+@media screen and (min-width: 576px) {
+}
+
+/*!
+* Tablet
+*/
+@media screen and (min-width: 768px) {
+	.wrapper {
+		width: var(--container-width-md);
+	}
+}
+
+/*!
+* Desktop
+*/
+@media screen and (min-width: 992px) {
+	.wrapper {
+		width: var(--container-width-lg);
+	}
+}
+
+/*!
+* Extra large Desktop
+*/
+@media screen and (min-width: 1400px) {
+	.wrapper {
+		width: var(--container-width-xlg);
+	}
+}
+
+/*!
+* Big large Desktop
+*/
+@media screen and (min-width: 1900px) {
+	.wrapper {
+		width: var(--container-width-xxlg);
+	}
+}
